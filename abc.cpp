@@ -1,10 +1,17 @@
 #include<iostream>
 using namespace std;
+int foo()
+{
+	return 0;
+
+}
 int main(){
 int t;
+int x=0;
 cin>>t;
 while(t!=42){
 cout<<t;
+cout<<x;
 cin>>t;
 }
 return 0;
