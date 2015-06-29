@@ -1,5 +1,9 @@
 #include<iostream>
 using namespace std;
+int catterpillar(){
+	printf("I am tiny tiny!\n");
+	return 1;
+}
 int main(){
 int t;
 cin>>t;
